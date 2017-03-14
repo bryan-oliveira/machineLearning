@@ -21,11 +21,22 @@ Notes:
 - (x,y) = one training example
 - h(x) = theta_0 + theta_1 * x where h maps from x's to y's
 - We want to find theta_0 & theta_1 so that h(x) minimizes our Cost Function J(theta) to our training examples
-- min (1/2m) (Sum i=1:m) (h(x^(i))-y^(i))^2)
-- Errors are squared to simplify
+- Below are plots where successive gradient descent steps have been taken
+
+![alt text](imgs/Image1.png)
+
+![alt text](imgs/grad.png)
+
+- J = min (1/2m) (sum i=1:m) (h(x^(i))-y^(i))^2)
+- Gradient Descent therefore minimizes the errors over iterations
 
 ![alt text](imgs/cost_function.png)
 
+
+- Errors are squared to simplify
+
 - We can then perform predictions on the data by plugging in theta_0 and theta_1: prediction = theta_0 + theta_1 * X
 - Two versions of Gradient Descent are implemented - Batch Gradient Descent and Normal Equation
+
+
 
