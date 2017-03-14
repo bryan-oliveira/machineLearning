@@ -18,9 +18,9 @@ in square feet, the second is the number of bedrooms, and the third the price of
 
 - Gradient Descent
   + formula = Then, one iteration of updating theta_j is given as:  
-  ![alt text](imgsg/update_eq.gif)
+  ![alt text](imgs/update_eq.gif)
   + problems with gradient descent is shown here:  
-  ![alt text](imgs/grad.jpg)
+  ![alt text](imgs/grad.jpeg)
 
 - Feature Scaling / Mean Normalization
   + Scale features so that they are on a similar scale
@@ -55,6 +55,7 @@ in square feet, the second is the number of bedrooms, and the third the price of
   + n = # of features
   + alpha = learning rate
 
+
   |Normal Eq vs. Gradient Descent|Pros                              |Cons                                  |
   |:----------------------------:|:--------------------------------:|:------------------------------------:|
   |Gradient Descent              |works well even when n is large   |need to choose alpha                  |
@@ -62,5 +63,5 @@ in square feet, the second is the number of bedrooms, and the third the price of
   |Normal Equation               |no need to choose alpha           |slow if n is very large               |
   |                              |don't need to iterate             |doesn't work for logistic regression  |
 
-   + <b>General Rule:</b> # of features is > 10,000 use Normal Equation, otherwise use Gradient Descent
+   + <b>General Rule:</b> # of features > 10,000 use Normal Equation, otherwise use Gradient Descent
    + NOTE: Normal equation slows down when n > 10,000 because we need to compute (X^T * X)^-1 which will take O(n^3) time for inversing the matrix.
