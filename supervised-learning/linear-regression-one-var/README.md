@@ -24,7 +24,7 @@ Notes:
 - min (1/2m) (Sum i=1:m) (h(x^(i))-y^(i))^2)
 - Errors are squared to simplify
 
-![alt text](https://imgs/cost_function.png)
+![alt text](imgs/cost_function.png)
 
 - We can then perform predictions on the data by plugging in theta_0 and theta_1: prediction = theta_0 + theta_1 * X
 - Two versions of Gradient Descent are implemented - Batch Gradient Descent and Normal Equation
