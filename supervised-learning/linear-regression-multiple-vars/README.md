@@ -17,9 +17,9 @@ in square feet, the second is the number of bedrooms, and the third the price of
   + J(theta) = (1/2m)(Sum i=1:m) ( h(x^(i)) - y^(i) )^2
 
 - Gradient Descent
-  + formula = Then, one iteration of updating theta_j is given as:  
+  + formula
   ![alt text](imgs/update_eq.gif)
-  + problems with gradient descent is shown here:  
+  + problem with gradient descent shown here:
   ![alt text](imgs/grad.jpeg)
 
 - Feature Scaling / Mean Normalization
