@@ -14,7 +14,7 @@ The code does the following:
 3. Plot the minimal values for theta (fit the data)
 
 
-+Notes:
+Notes:
 	- m = number of training examples
     - x's = "input" variable / features
     - y's = "output" variable
@@ -24,8 +24,8 @@ The code does the following:
     - min (1/2m) (Sum i=1:m) (h(x^(i))-y^(i))^2)
     - Errors are squared to simplify
 
-    ![alt text](https://raw.github.com/quinnliu/MachineLearning/master/imagesForExplanation/CostFunctionExampleWithTheta_0AndTheta_1.jpg)
+    ![alt text](https://imgs/cost_function.png)
 
     - We can then perform predictions on the data by plugging in theta_0 and theta_1: prediction = theta_0 + theta_1 * X
     - Two versions of Gradient Descent are implemented - Batch Gradient Descent and Normal Equation
-    
+
